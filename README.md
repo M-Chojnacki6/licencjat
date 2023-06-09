@@ -9,7 +9,7 @@ Uzyskiwanie wektorów wynikowych z sieci:
 
 > merge.py 
 
-Tworzenie plików z danymi o metylacji i acetylacji:
+## Tworzenie plików z danymi o metylacji i acetylacji:
 
 1) tworzenie plików z id:
 > id_to_bed.py
@@ -21,3 +21,9 @@ Tworzenie plików z danymi o metylacji i acetylacji:
    metylacji / acetylacji dla sekwencji w obrębie kategorii
 > merge_metac.py 
 
+## Właściwa analiza
+> analiza1.py
+> analiza2.py
+
+## wyniki testu zgodności ch^2 związane z rozdziałem 3.2,
+czyli rozkładami błędów podwójnych dla możliwych par porównań sieci
