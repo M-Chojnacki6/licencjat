@@ -109,7 +109,7 @@ Część własna, parsowanie argumentów
 
 parser = argparse.ArgumentParser(description='Program pomocniczy podający wektor 4 neuronów dla podanego modelu i zbioru sekwencji')
 
-parser.add_argument('model',metavar='m', nargs=1, 
+parser.add_argument('model', metavar='m', nargs=1, 
 		    help="""Gotowy model, który chcemy wykorzystać do wyznaczenia wartości wektora wyników.\nPodać plik o rozszerzeniu .model
 Plik nazwa_modelu_params.txt powinien znajdować się w tym samym katalogu""", default=None)
 parser.add_argument('path',metavar='p', nargs=1, 
