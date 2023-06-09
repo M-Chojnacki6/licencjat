@@ -109,15 +109,15 @@ Część własna, parsowanie argumentów
 
 parser = argparse.ArgumentParser(description='Program pomocniczy podający wektor 4 neuronów dla podanego modelu i zbioru sekwencji')
 
-parser.add_argument('model',metavar='m', nargs=1, help="""Gotowy model, który chcemy 
-wykorzystać do wyznaczenia wartości wektora wyników.\nPodać plik o rozszerzeniu .model\n
+parser.add_argument('model',metavar='m', nargs=1, 
+		    help="""Gotowy model, który chcemy wykorzystać do wyznaczenia wartości wektora wyników.\nPodać plik o rozszerzeniu .model
 Plik nazwa_modelu_params.txt powinien znajdować się w tym samym katalogu""", default=None)
-parser.add_argument('path',metavar='p', nargs=1, help="""Ścieżka prowadząca do katalogu z
- plikami zawierającymi testowane sekwencje""",default=os.getcwd())
-parser.add_argument('ins',metavar='i', nargs=1,  help="""Niepustu plik tekstowy z nazwami plików 
-fasta zawierającymi pojedyńczą sekwencję nukleotydów w przyjętym formie.""",default=None)
-parser.add_argument('-o','--out', nargs=1, help="""Nazwa pliku tekstowego, do którego program 
-zapisze wyniki podane przez modeli i prawdziwą kategorię sekwencji.""",default=None)
+parser.add_argument('path',metavar='p', nargs=1, 
+		    help="""Ścieżka prowadząca do katalogu z plikami zawierającymi testowane sekwencje""",default=os.getcwd())
+parser.add_argument('ins',metavar='i', nargs=1,  
+		    help="""Niepustu plik tekstowy z nazwami plików fasta zawierającymi pojedyńczą sekwencję nukleotydów w przyjętym formie.""",default=None)
+parser.add_argument('-o','--out', nargs=1, 
+		    help="""Nazwa pliku tekstowego, do którego program zapisze wyniki podane przez modeli i prawdziwą kategorię sekwencji.""",default=None)
 
 
 args = parser.parse_args()
