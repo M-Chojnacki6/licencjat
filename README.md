@@ -25,5 +25,5 @@ Uzyskiwanie wektorów wynikowych z sieci:
 > analiza1.py
 > analiza2.py
 
-## wyniki testu zgodności ch^2 związane z rozdziałem 3.2,
-czyli rozkładami błędów podwójnych dla możliwych par porównań sieci
+## Wyniki testu zgodności ch^2 związane z rozdziałem 3.2,
+czyli rozkładami błędów podwójnych dla możliwych par porównań sieci.
